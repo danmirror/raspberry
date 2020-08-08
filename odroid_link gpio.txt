@@ -1,0 +1,1 @@
+https://wiki.odroid.com/odroid-xu4/application_note/gpio/wiringpi

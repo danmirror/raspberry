@@ -1,0 +1,18 @@
+https://oscarliang.com/raspberry-pi-arduino-connected-i2c/
+https://maker.pro/raspberry-pi/tutorial/how-to-connect-and-interface-raspberry-pi-with-arduino
+
+
+=======ardino ke ubuntu=======
+
+https://forum.arduino.cc/index.php?topic=429636.0
+
+
+
+=======ubuntu ke arduino=========
+http://lang8088.blogspot.com/2015/02/tutorial-komunikasi-dasar-arduino.html
+
+
+opencv==================
+https://www.deciphertechnic.com/install-opencv-python-on-raspberry-pi/
+
+https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/

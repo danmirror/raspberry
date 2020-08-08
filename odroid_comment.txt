@@ -1,0 +1,29 @@
+=========odroid command ========
+
+install camera		=$ sudo apt-get install camorama
+config time		=$ sudo dpkg-reconfigure locale
+install software center	=$ sudo apt-get install software-center
+
+install codi(backup&upgrade)	= 
+			=$ sudo wget -O /usr/local/bin/odroid-utility.sh \https://raw.githubusercontent.com/mdrjr/\odroid-utility/master/odroid-utility.sh
+			=$ sudo chmod +x /usr/local/bin/odroid-utility.sh
+			=$ sudo odroid-utility.sh
+
+check name		=$ uname -a
+install vncviewer	=$ sudo apt-get install x11vnc
+detile usb		=$ sudo lsusb -D /dev/bus/usb/001/005
+install bluetooth		=$ sudo apt-get install bluez-dbg bluez-utils bluez-tools
+			=$ sudo apt-get install bluewho blueman python-bluetooth
+show bluetooth		=$ dmesg | grep Blue
+melihat ttl usb		=$ sudo ls -lsa /dev/ttyA*
+
+instal gps 	=$ sudo apt-get install gpsd gpsd-clients foxtrotgps
+		=$ sudo dpkg-reconfigure gpsd
+realtime	=$ foxtrotgps
+sata suport		=$ sudo apt install smartmontools
+
+config io shell 	=$ git clone https://github.com/hardkernel/wiringPi
+			=$ cd wiringPi
+			=$ ./build
+
+//$sudo rfkill list all
